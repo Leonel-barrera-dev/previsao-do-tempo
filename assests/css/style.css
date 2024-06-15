@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    /* Altura / vh - altura */
+    width: 100vw;
+    /*  vw - largura */
+    background-image: url("https://s2.glbimg.com/5uI8_cyaBaHhJt5PX4j1ZeWTfAg=/e.glbimg.com/og/ed/f/original/2020/01/22/tumblr_554eccfa803573ad6cd84bfb555d948b_a84bbc8b_540.gif");
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caixa_maior {
+    background-color: #000000b4;
+    /*  Troca cor de fundo  */
+    width: 95%;
+    /*  Largura  */
+    max-width: 420px;
+    /*  Largura  Maxima */
+    opacity: 0.8;
+    /* transparencia do item */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.caixa_maior .input_cidade {
+    padding: .625rem;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    background-color: #bfbfbf60;
+    width: calc(100% - 6.25rem);
+    color: #fff;
+}
+
+.botao_buscar {
+    padding: .625rem;
+    border-radius: 50px;
+    background-color: #bfbfbf60;
+    float: right;
+    cursor: pointer;
+}
+
+.input_cidade:focus {
+    background-color: #bfbfbf2d;
+}
+
+.botao_buscar:hover {
+    background-color: #bfbfbfcd;
+}
+
+.lupa {
+    height: 1.25rem;
+}
+
+.caixa_media {
+
+    margin-top: 2rem;
+}
+
+.caixa_menor {
+
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.tempo {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.descricao {
+    margin-left: 1.25rem;
+    text-transform: capitalize;
+    /* Deixa a primeira letra maiuscula*/
+
+}
+
+.umidade {
+    margin-top: 2rem;
+
+}
